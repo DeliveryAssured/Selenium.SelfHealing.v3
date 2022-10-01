@@ -1,0 +1,397 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class SelfHealingRemoteWebDriver
+   | Selenium.SelfHealing.v3 </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class SelfHealingRemoteWebDriver
+   | Selenium.SelfHealing.v3 ">
+    <meta name="generator" content="docfx 2.59.4.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Selenium.SelfHealing.SelfHealingRemoteWebDriver">
+  
+  
+  <h1 id="Selenium_SelfHealing_SelfHealingRemoteWebDriver" data-uid="Selenium.SelfHealing.SelfHealingRemoteWebDriver" class="text-break">Class SelfHealingRemoteWebDriver
+  </h1>
+  <div class="markdown level0 summary"><p>SelfHealingRemoteWebDriver</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level1"><span class="xref">SelfHealingRemoteWebDriver</span></div>
+  </div>
+  <div class="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="Selenium.SelfHealing.ISelfHealingWebDriver.html">ISelfHealingWebDriver</a></div>
+    <div><span class="xref">IWebDriver</span></div>
+    <div><span class="xref">ISearchContext</span></div>
+    <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
+    <div><span class="xref">IJavaScriptExecutor</span></div>
+    <div><span class="xref">IFindsById</span></div>
+    <div><span class="xref">IFindsByClassName</span></div>
+    <div><span class="xref">IFindsByLinkText</span></div>
+    <div><span class="xref">IFindsByName</span></div>
+    <div><span class="xref">IFindsByTagName</span></div>
+    <div><span class="xref">IFindsByXPath</span></div>
+    <div><span class="xref">IFindsByPartialLinkText</span></div>
+    <div><span class="xref">IFindsByCssSelector</span></div>
+    <div><span class="xref">ITakesScreenshot</span></div>
+    <div><span class="xref">IHasInputDevices</span></div>
+    <div><span class="xref">IHasCapabilities</span></div>
+    <div><span class="xref">IHasWebStorage</span></div>
+    <div><span class="xref">IHasLocationContext</span></div>
+    <div><span class="xref">IHasApplicationCache</span></div>
+    <div><span class="xref">IAllowsFileDetection</span></div>
+    <div><span class="xref">IHasSessionId</span></div>
+    <div><span class="xref">IActionExecutor</span></div>
+    <div><a class="xref" href="Selenium.SelfHealing.ISearchContextDisabledHealing.html">ISearchContextDisabledHealing</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring#system-object-tostring">Object.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">Object.Equals(Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">Object.Equals(Object, Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals#system-object-referenceequals(system-object-system-object)">Object.ReferenceEquals(Object, Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode#system-object-gethashcode">Object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype#system-object-gettype">Object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone#system-object-memberwiseclone">Object.MemberwiseClone()</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Selenium.SelfHealing.html">Selenium.SelfHealing</a></h6>
+  <h6><strong>Assembly</strong>: Selenium.SelfHealing.v3.dll</h6>
+  <h5 id="Selenium_SelfHealing_SelfHealingRemoteWebDriver_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obfuscation(Exclude = true)]
+public sealed class SelfHealingRemoteWebDriver : ISelfHealingWebDriver, IDisposable, ISearchContextDisabledHealing</code></pre>
+  </div>
+  <h3 id="eii">Explicit Interface Implementations
+  </h3>
+  <a id="Selenium_SelfHealing_SelfHealingRemoteWebDriver_Selenium_SelfHealing_ISearchContextDisabledHealing_FindElement_" data-uid="Selenium.SelfHealing.SelfHealingRemoteWebDriver.Selenium#SelfHealing#ISearchContextDisabledHealing#FindElement*"></a>
+  <h4 id="Selenium_SelfHealing_SelfHealingRemoteWebDriver_Selenium_SelfHealing_ISearchContextDisabledHealing_FindElement_By_" data-uid="Selenium.SelfHealing.SelfHealingRemoteWebDriver.Selenium#SelfHealing#ISearchContextDisabledHealing#FindElement(By)">ISearchContextDisabledHealing.FindElement(By)</h4>
+  <div class="markdown level1 summary"><p>Finds the first <span class="xref">OpenQA.Selenium.IWebElement</span> using the given method.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IWebElement ISearchContextDisabledHealing.FindElement(By by)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">By</span></td>
+        <td><span class="parametername">by</span></td>
+        <td><p>The locating mechanism to use.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IWebElement</span></td>
+        <td><p>The first matching <span class="xref">OpenQA.Selenium.IWebElement</span> on the current context.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Selenium_SelfHealing_SelfHealingRemoteWebDriver_Selenium_SelfHealing_ISearchContextDisabledHealing_FindElements_" data-uid="Selenium.SelfHealing.SelfHealingRemoteWebDriver.Selenium#SelfHealing#ISearchContextDisabledHealing#FindElements*"></a>
+  <h4 id="Selenium_SelfHealing_SelfHealingRemoteWebDriver_Selenium_SelfHealing_ISearchContextDisabledHealing_FindElements_By_" data-uid="Selenium.SelfHealing.SelfHealingRemoteWebDriver.Selenium#SelfHealing#ISearchContextDisabledHealing#FindElements(By)">ISearchContextDisabledHealing.FindElements(By)</h4>
+  <div class="markdown level1 summary"><p>Finds all <span class="xref">OpenQA.Selenium.IWebElement</span> within the current context
+using the given mechanism.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ReadOnlyCollection&lt;IWebElement&gt; ISearchContextDisabledHealing.FindElements(By by)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">By</span></td>
+        <td><span class="parametername">by</span></td>
+        <td><p>The locating mechanism to use.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.readonlycollection-1">ReadOnlyCollection</a>&lt;<span class="xref">IWebElement</span>&gt;</td>
+        <td><p>A <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.readonlycollection-1">ReadOnlyCollection&lt;T&gt;</a> of all <span class="xref">OpenQA.Selenium.IWebElement</span>
+matching the current criteria, or an empty list if nothing matches.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Selenium_SelfHealing_SelfHealingRemoteWebDriver_Selenium_SelfHealing_ISelfHealingWebDriver_DisableHealing_" data-uid="Selenium.SelfHealing.SelfHealingRemoteWebDriver.Selenium#SelfHealing#ISelfHealingWebDriver#DisableHealing*"></a>
+  <h4 id="Selenium_SelfHealing_SelfHealingRemoteWebDriver_Selenium_SelfHealing_ISelfHealingWebDriver_DisableHealing" data-uid="Selenium.SelfHealing.SelfHealingRemoteWebDriver.Selenium#SelfHealing#ISelfHealingWebDriver#DisableHealing">ISelfHealingWebDriver.DisableHealing</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ISearchContextDisabledHealing ISelfHealingWebDriver.DisableHealing { get; }</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Selenium.SelfHealing.ISearchContextDisabledHealing.html">ISearchContextDisabledHealing</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Selenium_SelfHealing_SelfHealingRemoteWebDriver_Selenium_SelfHealing_ISelfHealingWebDriver_OriginalWebDriver_" data-uid="Selenium.SelfHealing.SelfHealingRemoteWebDriver.Selenium#SelfHealing#ISelfHealingWebDriver#OriginalWebDriver*"></a>
+  <h4 id="Selenium_SelfHealing_SelfHealingRemoteWebDriver_Selenium_SelfHealing_ISelfHealingWebDriver_OriginalWebDriver" data-uid="Selenium.SelfHealing.SelfHealingRemoteWebDriver.Selenium#SelfHealing#ISelfHealingWebDriver#OriginalWebDriver">ISelfHealingWebDriver.OriginalWebDriver</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IWebDriver ISelfHealingWebDriver.OriginalWebDriver { get; }</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IWebDriver</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Selenium_SelfHealing_SelfHealingRemoteWebDriver_System_IDisposable_Dispose_" data-uid="Selenium.SelfHealing.SelfHealingRemoteWebDriver.System#IDisposable#Dispose*"></a>
+  <h4 id="Selenium_SelfHealing_SelfHealingRemoteWebDriver_System_IDisposable_Dispose" data-uid="Selenium.SelfHealing.SelfHealingRemoteWebDriver.System#IDisposable#Dispose">IDisposable.Dispose()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void IDisposable.Dispose()</code></pre>
+  </div>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="Selenium.SelfHealing.ISelfHealingWebDriver.html">ISelfHealingWebDriver</a>
+  </div>
+  <div>
+      <span class="xref">IWebDriver</span>
+  </div>
+  <div>
+      <span class="xref">ISearchContext</span>
+  </div>
+  <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">System.IDisposable</a>
+  </div>
+  <div>
+      <span class="xref">IJavaScriptExecutor</span>
+  </div>
+  <div>
+      <span class="xref">IFindsById</span>
+  </div>
+  <div>
+      <span class="xref">IFindsByClassName</span>
+  </div>
+  <div>
+      <span class="xref">IFindsByLinkText</span>
+  </div>
+  <div>
+      <span class="xref">IFindsByName</span>
+  </div>
+  <div>
+      <span class="xref">IFindsByTagName</span>
+  </div>
+  <div>
+      <span class="xref">IFindsByXPath</span>
+  </div>
+  <div>
+      <span class="xref">IFindsByPartialLinkText</span>
+  </div>
+  <div>
+      <span class="xref">IFindsByCssSelector</span>
+  </div>
+  <div>
+      <span class="xref">ITakesScreenshot</span>
+  </div>
+  <div>
+      <span class="xref">IHasInputDevices</span>
+  </div>
+  <div>
+      <span class="xref">IHasCapabilities</span>
+  </div>
+  <div>
+      <span class="xref">IHasWebStorage</span>
+  </div>
+  <div>
+      <span class="xref">IHasLocationContext</span>
+  </div>
+  <div>
+      <span class="xref">IHasApplicationCache</span>
+  </div>
+  <div>
+      <span class="xref">IAllowsFileDetection</span>
+  </div>
+  <div>
+      <span class="xref">IHasSessionId</span>
+  </div>
+  <div>
+      <span class="xref">IActionExecutor</span>
+  </div>
+  <div>
+      <a class="xref" href="Selenium.SelfHealing.ISearchContextDisabledHealing.html">ISearchContextDisabledHealing</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
